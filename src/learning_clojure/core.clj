@@ -54,3 +54,10 @@
 (println (peek w))                                          ;peek returns the last element of an array
 
 (println (group-by even? (range 1 10)))                     ;grouping elements
+
+(def s (set '(1 2 3 4 5)))                                  ;defining a set
+(println (contains? s 3))
+
+(def mymap {:name "Helder" :age 44})                        ;defining a map
+(println (:name mymap))
+(println (contains? mymap :name))
