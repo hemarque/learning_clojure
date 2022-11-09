@@ -13,3 +13,6 @@
 
 (println (mod 5 3))                                         ;playing with the order in operations
 (println (mod 3 5))
+
+(def x '(1 2 3 4))                                          ;playing with set of values
+(println (first x))
