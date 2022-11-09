@@ -27,4 +27,12 @@
 (defn sayHi [name] (println (str "Hi " name)))              ;playing with functions
 (sayHi "Helder")
 
-(println (for [n '(1 2 3 4)]  (* 2 n)) )                    ;playing with for statement
+(println (for [n '(1 2 3 4)] (* 2 n)))                      ;playing with for statement
+
+;;let's try a fizzbuzz
+(defn fizzbuzz [numbers]
+  (for [n numbers]
+    (* 1 n)
+    )
+  )
+(println (fizzbuzz '(1 2 3 4 5 6 7 8 9 10 15)))
