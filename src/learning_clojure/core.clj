@@ -8,4 +8,5 @@
 
 (assert (= 1 1))                                            ;asserting conditions,  (assert (= 1 0)) fails
 
-
+(def x 1)                                                   ;defining variables
+(println x)
