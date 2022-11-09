@@ -41,3 +41,6 @@
     )
   )
 (println (fizzbuzz '(1 2 3 4 5 6 7 8 9 10 15)))
+
+(def r (range 1 10))                                        ;define a range of elements
+(println x)
