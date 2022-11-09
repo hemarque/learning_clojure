@@ -10,3 +10,6 @@
 
 (def x 1)                                                   ;defining variables
 (println x)
+
+(println (mod 5 3))                                         ;playing with the order in operations
+(println (mod 3 5))
