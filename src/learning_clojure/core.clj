@@ -6,6 +6,6 @@
 
 (.println System/out "Hi!!!")                               ;calling Java methods
 
-
+(assert (= 1 1))                                            ;asserting conditions,  (assert (= 1 0)) fails
 
 
