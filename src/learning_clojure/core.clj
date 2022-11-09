@@ -32,7 +32,12 @@
 ;;let's try a fizzbuzz
 (defn fizzbuzz [numbers]
   (for [n numbers]
-    (* 1 n)
+    (cond
+      (= 0 (mod n 15)) "FizzBuzz"
+      (= 0 (mod n 3)) "Fizz"
+      (= 0 (mod n 5)) "Buzz"
+      :else n
+      )
     )
   )
 (println (fizzbuzz '(1 2 3 4 5 6 7 8 9 10 15)))
