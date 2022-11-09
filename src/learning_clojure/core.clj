@@ -4,7 +4,7 @@
 
 (println "Hello, World!")                                   ;and this is another comment at the end of the line
 
-
+(.println System/out "Hi!!!")                               ;calling Java methods
 
 
 
