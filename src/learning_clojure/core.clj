@@ -16,3 +16,8 @@
 
 (def y '(1 2 3 4))                                          ;playing with set of values
 (println (first y))
+
+
+(try (throw (Exception. "launching an error")) (catch Exception e (println "error!"))) ;managing exceptions
+
+(try (throw (Exception. "launching an error")) (catch Exception e (println (.getMessage e)))) ;printing exception message
