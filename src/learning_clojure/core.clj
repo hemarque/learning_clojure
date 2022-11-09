@@ -23,3 +23,8 @@
 (def z '(+ 2 3))                                            ;creating a data structure (not text)
 (println z)                                                 ;printing the data structure
 (println (eval z))                                          ;evaluate the data structure (doesn't work with strings)
+
+(defn sayHi [name] (println (str "Hi " name)))              ;playing with functions
+(sayHi "Helder")
+
+(println (for [n '(1 2 3 4)]  (* 2 n)) )                    ;playing with for statement
