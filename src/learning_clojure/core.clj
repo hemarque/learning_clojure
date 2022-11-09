@@ -48,3 +48,7 @@
 (println (map inc r))                                       ;map takes a list of elements and applies a function on it
 
 (println (reduce + r))                                      ;reduce takes all the elements and applies a function returning 1 value
+
+(def w [1 2 3 4 5])
+(println (pop w))                                           ;pop returns an array without the last element
+(println (peek w))                                          ;peek returns the last element of an array
