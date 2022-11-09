@@ -61,3 +61,25 @@
 (def mymap {:name "Helder" :age 44})                        ;defining a map
 (println (:name mymap))
 (println (contains? mymap :name))
+
+(defn fizzbuzz2 [ns]
+  (map
+    (fn [n] (cond
+              (= 0 (mod n 15)) "FizzBuzz"
+              (= 0 (mod n 3)) "Fizz"
+              (= 0 (mod n 5)) "Buzz"
+              :else n
+              )) ns))
+(println (fizzbuzz2 '(1 2 3 4 5 6 7 8 9 10 15)))
+
+(defn innerfizzbuzz [n]
+  (cond
+
+    (= 0 (mod n 15)) "FizzBuzz"
+    (= 0 (mod n 3)) "Fizz"
+    (= 0 (mod n 5)) "Buzz"
+    :else n
+    ))
+(defn fizzbuzz3 [ns]
+  (map innerfizzbuzz ns))
+(println (fizzbuzz3 '(1 2 3 4 5 6 7 8 9 10 15)))
