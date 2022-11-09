@@ -46,3 +46,5 @@
 (println r)
 
 (println (map inc r))                                       ;map takes a list of elements and applies a function on it
+
+(println (reduce + r))                                      ;reduce takes all the elements and applies a function returning 1 value
