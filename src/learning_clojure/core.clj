@@ -52,3 +52,5 @@
 (def w [1 2 3 4 5])
 (println (pop w))                                           ;pop returns an array without the last element
 (println (peek w))                                          ;peek returns the last element of an array
+
+(println (group-by even? (range 1 10)))                     ;grouping elements
