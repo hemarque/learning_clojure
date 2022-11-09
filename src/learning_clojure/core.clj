@@ -17,7 +17,9 @@
 (def y '(1 2 3 4))                                          ;playing with set of values
 (println (first y))
 
-
-(try (throw (Exception. "launching an error")) (catch Exception e (println "error!"))) ;managing exceptions
-
+;;managing exceptions
 (try (throw (Exception. "launching an error")) (catch Exception e (println (.getMessage e)))) ;printing exception message
+
+(def z '(+ 2 3))                                            ;creating a data structure (not text)
+(println z)                                                 ;printing the data structure
+(println (eval z))                                          ;evaluate the data structure (doesn't work with strings)
