@@ -74,7 +74,6 @@
 
 (defn innerfizzbuzz [n]
   (cond
-
     (= 0 (mod n 15)) "FizzBuzz"
     (= 0 (mod n 3)) "Fizz"
     (= 0 (mod n 5)) "Buzz"
