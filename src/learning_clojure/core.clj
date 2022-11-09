@@ -1,4 +1,4 @@
-(ns learning-clojure.core)
+(ns learning-clojure.core)                                  ;setting a namespace for the project
 
 ;; this is a 1 line comment
 
