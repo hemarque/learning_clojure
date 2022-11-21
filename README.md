@@ -6,5 +6,5 @@ I'm playing here with Cursive plugin for Intellij
 
 Sources:
 
-1. [Clojure Intro: dipping your toe in](https://www.youtube.com/watch?v=_0RV2sls9yc)
-2. [Clojure and the Functional Paradigm](https://youtu.be/2hBl31QP9Pc)
+1. ["Curso de PYTHON desde CERO para PRINCIPIANTES [Básico]" by MoureDev](https://youtu.be/Kp4Mvapo5kc)
+2. ["Curso de PYTHON desde CERO para PRINCIPIANTES [Intermedio]" by MoureDev](https://youtu.be/TbcEqkabAWU)
