@@ -82,3 +82,9 @@
 (defn fizzbuzz3 [ns]
   (map innerfizzbuzz ns))
 (println (fizzbuzz3 '(1 2 3 4 5 6 7 8 9 10 15)))
+
+;closure
+(defn addx [x]
+  (fn [n] (+ x n)))
+(def add5 (addx 5))
+(println (add5 10))
