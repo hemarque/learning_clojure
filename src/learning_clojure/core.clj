@@ -88,3 +88,7 @@
   (fn [n] (+ x n)))
 (def add5 (addx 5))
 (println (add5 10))
+
+;partial function
+(def newadd5 (partial + 5))
+(println (newadd5 3))
